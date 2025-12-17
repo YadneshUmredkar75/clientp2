@@ -54,50 +54,65 @@ export default function Index() {
       </section>
 
       {/* Leadership Section - Corrected Names */}
-      <section className="py-16 md:py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 md:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-gold font-semibold uppercase tracking-wider mb-2">
-              नेतृत्व
-            </h2>
-            <h3 className="text-3xl md:text-4xl font-bold text-maroon-dark">
-              सरपंच व उपसरपंच
-            </h3>
-          </div>
+<section className="py-16 md:py-24 bg-white">
+  <div className="max-w-7xl mx-auto px-4 md:px-8">
+    <div className="text-center mb-12">
+      <h2 className="text-red-600 font-semibold uppercase tracking-wider mb-2">
+        नेतृत्व
+      </h2>
+      <h3 className="text-3xl md:text-4xl font-bold text-gray-800">
+        सरपंच, उपसरपंच व सचिव
+      </h3>
+    </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-            {/* सरपंच - Corrected Name */}
-            <div className="text-center">
-              <div className="w-48 h-48 mx-auto mb-6 overflow-hidden rounded-lg shadow-2xl ring-4 ring-gold/50">
-                <img 
-                  src="/t1.jpg" 
-                  alt="रुपेश सिताराम जाधव - सरपंच"
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                />
-              </div>
-              <h4 className="text-2xl font-bold text-maroon-dark">रुपेश सिताराम जाधव</h4>
-              <p className="text-gold text-xl font-bold mt-2">सरपंच</p>
-              <p className="text-gray-600 mt-2">मोबाईल: 8308987907</p>
-              <p className="text-gray-500 text-sm mt-1">वासंत किसान उमाटे</p>
-            </div>
-
-            {/* उपसरपंच - Corrected Name */}
-            <div className="text-center">
-              <div className="w-48 h-48 mx-auto mb-6 overflow-hidden rounded-lg shadow-2xl ring-4 ring-blue-500/50">
-                <img 
-                  src="/t2.2.jpg" 
-                  alt="किशोर वसंतराव जाधव - उपसरपंच"
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                />
-              </div>
-              <h4 className="text-2xl font-bold text-maroon-dark">किशोर वसंतराव जाधव</h4>
-              <p className="text-blue-600 text-xl font-bold mt-2">उपसरपंच</p>
-              <p className="text-gray-600 mt-2">मोबाईल: 9359987542</p>
-              <p className="text-gray-500 text-sm mt-1">पिता: वसंत किसान उमाटे</p>
-            </div>
-          </div>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
+      {/* सरपंच */}
+      <div className="text-center">
+        <div className="w-48 h-48 mx-auto mb-6 overflow-hidden rounded-lg shadow-2xl ring-4 ring-red-500/50">
+          <img 
+            src="/img2.jpg" 
+            alt="सौ. पल्लवीताई उमेशराव कुकडकर - सरपंच"
+            className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+          />
         </div>
-      </section>
+        <h4 className="text-2xl font-bold text-gray-800">
+          मा. सौ. पल्लवीताई उमेशराव कुकडकर
+        </h4>
+        <p className="text-red-600 text-xl font-bold mt-2">सरपंच</p>
+      </div>
+
+      {/* उपसरपंच */}
+      <div className="text-center">
+        <div className="w-48 h-48 mx-auto mb-6 overflow-hidden rounded-lg shadow-2xl ring-4 ring-orange-500/50">
+          <img 
+            src="/img3.jpg" 
+            alt="श्री. निशांत शिवशंकर बोटरे - उपसरपंच"
+            className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+          />
+        </div>
+        <h4 className="text-2xl font-bold text-gray-800">
+          मा. निशांत शिवशंकर बोटरे
+        </h4>
+        <p className="text-orange-600 text-xl font-bold mt-2">उपसरपंच</p>
+      </div>
+
+      {/* सचिव */}
+      <div className="text-center">
+        <div className="w-48 h-48 mx-auto mb-6 overflow-hidden rounded-lg shadow-2xl ring-4 ring-blue-500/50">
+          <img 
+            src="/img4.jpg" 
+            alt="वसंत किसन उमाटे - सचिव"
+            className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+          />
+        </div>
+        <h4 className="text-2xl font-bold text-gray-800">
+          श्री. वसंत किसन उमाटे
+        </h4>
+        <p className="text-blue-600 text-xl font-bold mt-2">सचिव</p>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Quick Info Cards - Updated with screenshot data */}
       <section className="py-16 md:py-24 bg-cream">
